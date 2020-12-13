@@ -4,9 +4,9 @@ import { Text, View } from 'react-native';
 const Cabecalho = (props) => {
     return(
     <View style = {{alignItems:'center'}}>
-                <Text >  Nome: {props.nome}</Text>
-                <Text > Curso: {props.curso}</Text>
-            </View>
+        <Text >  Nome: {props.nome}</Text>
+        <Text > Curso: {props.curso}</Text>
+    </View>
         
     );
 }
