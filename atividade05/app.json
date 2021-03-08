@@ -1,0 +1,12 @@
+{
+  "name": "atividade05",
+  "displayName": "atividade05",
+  "expo": {
+    "name": "atividade05",
+    "slug": "atividade05",
+    "version": "1.0.0",
+    "assetBundlePatterns": [
+      "**/*"
+    ]
+  }
+}
