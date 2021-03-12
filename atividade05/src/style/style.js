@@ -1,8 +1,10 @@
 import { StyleSheet } from "react-native";
 
-const estilo = StyleSheet.create({
+const style = StyleSheet.create({
+
+   
     header: {
-        backgroundColor: "gray",
+        backgroundColor: "black",
         textAlign: "center",
         padding: 10,
     },
@@ -21,17 +23,17 @@ const estilo = StyleSheet.create({
         borderTopRightRadius: 10,
         borderTopStartRadius: 10,
     },
-    title:{
+    title: {
         fontWeight: "bold",
         fontSize: 20,
         marginLeft: 10,
         marginTop: 10,
     },
     subtitle: {
-        marginLeft:10,
+        marginLeft: 10,
         fontSize: 10,
     },
-    container:{
+    container: {
         flex: 1,
         justifyContent: "center",
         alignItems: "center",
@@ -39,4 +41,4 @@ const estilo = StyleSheet.create({
 
 })
 
-export {estilo}
+export { style };

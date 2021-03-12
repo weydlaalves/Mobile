@@ -1,11 +1,11 @@
 import React, { Component } from 'react'
 import { Text, View } from 'react-native'
-import { estilo } from '../style/style'
+import { style } from '../style/style'
 
 export class Header extends Component {
     render() {
         return (
-            <View style={estilo.header}>
+            <View style={style.header}>
                 <Text>
                     {this.props.title}
                 </Text>

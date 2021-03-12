@@ -1,8 +1,7 @@
 import React, { Component } from 'react'
-import { Text, View } from 'react-native'
-import { estilo } from '../style/style'
+import { style } from '../style/style'
+import { View } from 'react-native'
 import MusicDetailAlbum from './MusicDetailAlbum.js'
-
 export class MusicAlbum extends Component {
     constructor(props) {
         super(props)
@@ -30,22 +29,22 @@ export class MusicAlbum extends Component {
 
         this.state.albuns.map((item, index) => {
             cards.push(
-                <MusicDetailAlbum 
-                    id={item.id}    
-                    navigation={this.props.navigation}                 
-                    key={index} 
-                    title={item.name} 
-                    artista={item.artist} 
+                <MusicDetailAlbum
+                    id={item.id}
+                    navigation={this.props.navigation}
+                    key={index}
+                    title={item.name}
+                    artista={item.artist}
                     imagem={item.image}>
                 </MusicDetailAlbum>)
         });
 
         return (
-            <View style={estilo.container}>
+            <View style={style.container}>
                 {cards}
             </View>
         )
     }
 }
 
-export default MusicList;
+export default MusicAlbum;

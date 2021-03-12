@@ -13,7 +13,7 @@ function RotasTelas(){
 
             <Rotas.Navigator initialRouteName="Lista">
 
-                <Rotas.Screen name="Lista" component={MusicAlbum} options={{title: 'Galeria'}}>
+                <Rotas.Screen name="Lista" component={MusicAlbum} options={{title: 'Galeria de Musicas',}}>
                 </Rotas.Screen>
 
                 <Rotas.Screen name="Detalhe" component={MusicDetailAlbum}>

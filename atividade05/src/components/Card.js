@@ -1,11 +1,11 @@
 import React, { Component } from 'react'
 import { View } from 'react-native'
-import { estilo } from '../style/style'
+import { style } from '../style/style'
 
 export class Card extends Component {
     render() {
         return (
-            <View style={estilo.card}>
+            <View style={style.card}>
                 {this.props.children}
             </View>
         )
